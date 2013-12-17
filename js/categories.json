@@ -1,0 +1,77 @@
+[
+	{
+		"ID": "All",
+		"name": "All of YouTube",
+		"order": 0
+	},
+	{
+		"ID": "Film",
+		"name": "Film & Animation",
+		"order": 10
+	},
+	{
+		"ID": "Autos",
+		"name": "Autos & Vehicles",
+		"order": 20
+	},
+	{
+		"ID": "Music",
+		"name": "Music",
+		"order": 30
+	},
+	{
+		"ID": "Animals",
+		"name": "Pets & Animals",
+		"order": 40
+	},
+	{
+		"ID": "Sports",
+		"name": "Sports",
+		"order": 50
+	},
+	{
+		"ID": "Travel",
+		"name": "Travel & Events",
+		"order": 60
+	},
+	{
+		"ID": "Games",
+		"name": "Gaming",
+		"order": 70
+	},
+	{
+		"ID": "People",
+		"name": "People &amp; Blogs",
+		"order": 80
+	},
+	{
+		"ID": "Comedy",
+		"name": "Comedy",
+		"order": 90
+	},
+	{
+		"ID": "Entertainment",
+		"name": "Entertainment",
+		"order": 100
+	},
+	{
+		"ID": "News",
+		"name": "News & Politics",
+		"order": 110
+	},
+	{
+		"ID": "Howto",
+		"name": "Howto & Style",
+		"order": 120
+	},
+	{
+		"ID": "Education",
+		"name": "Education",
+		"order": 130
+	},
+	{
+		"ID": "Tech",
+		"name": "Science & Technology",
+		"order": 140
+	}
+]

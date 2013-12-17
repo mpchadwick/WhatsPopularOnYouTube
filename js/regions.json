@@ -1,0 +1,197 @@
+[
+	{
+		"ID": "WW",
+		"name": "Worldwide",
+		"order": 0
+	}, 
+	{
+		"ID": "AR",
+		"name": "Argentina",
+		"order": 10
+	},
+	{
+		"ID": "AU",
+		"name": "Australia",
+		"order": 20
+	},
+	{
+		"ID": "AT",
+		"name": "Austria",
+		"order": 30
+	},
+	{
+		"ID": "BE",
+		"name": "Belgium",
+		"order": 40
+	},
+	{
+		"ID": "BR",
+		"name": "Brazil",
+		"order": 50
+	},
+	{
+		"ID": "CA",
+		"name": "Canada",
+		"order": 60
+	},
+	{
+		"ID": "CL",
+		"name": "Chile",
+		"order": 70
+	},
+	{
+		"ID": "CO",
+		"name": "Columbia",
+		"order": 80
+	},
+	{
+		"ID": "CZ",
+		"name": "Czech Republic",
+		"order": 90
+	},
+	{
+		"ID": "EG",
+		"name": "Egypt",
+		"order": 110
+	},
+	{
+		"ID": "FR",
+		"name": "France",
+		"order": 110
+	},
+	{
+		"ID": "DE",
+		"name": "Germany",
+		"order": 120
+	}, 
+	{
+		"ID": "GB",
+		"name": "Great Britain",
+		"order": 130
+	}, 
+	{
+		"ID": "HK",
+		"name": "Hong Kong",
+		"order": 140
+	},
+	{
+		"ID": "HU",
+		"name": "Hungary",
+		"order": 150
+	}, 
+	{
+		"ID": "IN",
+		"name": "India",
+		"order": 160
+	}, 
+	{
+		"ID": "IL",
+		"name": "Israel",
+		"order": 170
+	},
+	{
+		"ID": "IT",
+		"name": "Italy",
+		"order": 180
+	},
+	{
+		"ID": "JP",
+		"name": "Japan",
+		"order": 190
+	},
+    {
+        "ID": "JO",
+        "name": "Jordan",
+        "order": 200
+    },
+    {
+        "ID": "MY",
+        "name": "Malaysia",
+        "order": 210
+    },
+    {
+        "ID": "MA",
+        "name": "Morocco",
+        "order": 220
+    },
+    {
+        "ID": "NL",
+        "name": "Netherlands",
+        "order": 230
+    },
+    {
+        "ID": "NZ",
+        "name": "New Zealand",
+        "order": 240
+    },
+    {
+        "ID": "PE",
+        "name": "Peru",
+        "order": 250
+    },
+    {
+        "ID": "PH",
+        "name": "Philippines",
+        "order": 260
+    },
+    {
+        "ID": "PL",
+        "name": "Poland",
+        "order": 270
+    },
+    {
+        "ID": "RU",
+        "name": "Russia",
+        "order": 280
+    },
+    {
+        "ID": "SA",
+        "name": "Saudi Arabia",
+        "order": 290
+    },
+    {
+        "ID": "SG",
+        "name": "Singapore",
+        "order": 300
+    },
+    {
+        "ID": "ZA",
+        "name": "South Africa",
+        "order": 310
+    },
+    {
+        "ID": "KR",
+        "name": "South Korea",
+        "order": 320
+    },
+    {
+        "ID": "ES",
+        "name": "Spain",
+        "order": 330
+    },
+    {
+        "ID": "SE",
+        "name": "Sweden",
+        "order": 340
+    }, 
+    {
+        "ID": "CH",
+        "name": "Switzerland",
+        "order": 350
+    },
+    {
+        "ID": "TW",
+        "name": "Taiwan",
+        "order": 360
+    },
+    {
+        "ID": "AE",
+        "name": "United Arab Emirates",
+        "order": 370
+    },
+    {
+        "ID": "US",
+        "name": "United States",
+        "order": 380
+    }
+]

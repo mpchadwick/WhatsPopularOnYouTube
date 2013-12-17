@@ -1,0 +1,50 @@
+<div id="filters">
+	<div class="filter">	
+		<label for="region">Region: </label>
+		<select id="region" ng-model="place" ng-change="getData()">
+			<option ng-repeat="region in regions|orderBy:'order'" value="{{region.ID}}">{{region.name}}</option>
+		</select>
+	</div>
+	<div class="filter">
+		<label for="category">Category: </label>
+		<select id="category" ng-model="curCategory" ng-change="getData()">
+			<option ng-repeat="category in categories|orderBy:'order'" value="{{category.ID}}">{{category.name}}</option>
+		</select>
+	</div>
+	<div class="filter">
+		<label for="time">Time: </label>
+		<select id="time" ng-model="time" ng-change="getData()">
+			<option value="today" selected>Today</option>
+			<option value="all_time">All Time</option>
+		</select>
+	</div>
+</div>
+<div class="main">
+	<ul class="list-group">
+		<li class="list-group-item" ng-repeat="entry in entries">
+			<h3>#{{$index+1}}: {{entry.title.$t}}</h3>
+			<non-sucky-youtube-embed id="{{entry.media$group.yt$videoid.$t}}" width="480" height="360"></non-sucky-youtube-embed>
+			<span class="label label-info">View Count:</span> {{entry.yt$statistics.viewCount}}<br />
+			<span class="label label-info">Author:</span> <a href="{{entry.author.0.uri.$t}}" target="_blank">{{entry.author.0.name.$t}}</a><br />
+			<span class="label label-info">Published:</span> {{entry.published.$t}}<br />
+			<span class="label label-info">Rating:</span> {{entry.rating}}<br /> 
+			<span class="label label-info">Category:</span> {{entry.media$group.media$category.0.$t}}<br />
+			<span class="label label-info">Duration:</span> {{entry.duration}}<br />
+			<span class="label label-info">Description:</span> {{entry.media$group.media$description.$t|truncate:100}}
+		</li>
+	</ul>
+</div>
+<div class="sidebar">
+	<h4>Random Video Search</h4>
+	<i>Search Term:</i> {{randomWord}}<br /> 
+	<span id="randomUpdate" ng-click="getRandomVideos()">Update</span><br />
+	<ul>
+		<li ng-repeat="nv in nvs">
+			<a href="{{nv.link.0.href}}" target="_blank">
+				<img src="{{nv.media$group.media$thumbnail.0.url}}" />
+				<h5>{{nv.title.$t}}</h5>
+			</a>
+		</li>
+	</ul>
+</div>
+<div class="clear"></div>

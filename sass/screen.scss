@@ -1,0 +1,137 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+$red: #cd2929;
+html {
+	font-family: sans-serif;
+}
+b {
+	font-weight: bold;
+}
+i {
+	font-style: italic;
+}
+.clear {
+	clear: both;
+}
+span.label-info {
+	font-weight: bold;
+}
+
+#filters {
+	margin-bottom: 1em;
+	/*background-color: gray; */
+	padding: 0.5em 0em;;
+}
+.filter {
+	margin-bottom: 0.5em;
+}
+.filter label {
+	display: inline-block;
+	width: 80px;
+	font-family: 'Exo', sans-serif;
+}
+
+select, option {
+	font-size: 0.8em;
+	background-color: black;
+	color: white;
+	border: 0;
+}
+
+.wrapper {
+	width: 95%;
+	margin: auto;
+	max-width: 650px;
+}
+
+.list-group-item {
+	margin-bottom: 2em;
+	h3 {
+		font-family: 'Exo', sans-serif;
+		font-weight: 700;
+		font-size: 36px;
+	}
+}
+.sidebar {
+	display: none;
+	h4 {
+		font-weight: bold;
+		font-size: 1.2em;
+		margin-bottom: 0.5em;
+	}
+	ul li {
+		margin-bottom: 0.5em;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+footer {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background: black;
+	color: white;
+	a {
+		color: gray;
+	}
+}
+#tagline {
+	display: none;
+}
+@media all and (min-width: 800px) {
+	.wrapper {
+		max-width: 960px;
+	}
+	.main, .sidebar {
+		float: left;
+	}
+	.main {
+		width: 65%;
+		margin-right: 5%;
+	}
+	.sidebar {
+		width: 30%;
+		display: block;
+	}
+	.filter {
+		display: inline-block;
+		margin-right: 1em;
+		label {
+			width: auto;
+		}
+	}
+	#randomUpdate {
+		display: block;
+		color: blue;
+		padding: 0.5em 0em;
+		&:hover {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+	#logo {
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+	}
+	#tagline {
+		display: block;
+		float: left;
+		width: 65%;
+		margin-top: 50px;
+		font-family: 'Exo', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+		span#oss, span#hot {
+			font-size: 22px;
+		}
+		span#hot {
+			color: $red;
+		}
+	}
+}
